@@ -1,0 +1,248 @@
+.bota_title_main {
+	text-align: center;
+	font-size: 30px;
+	border-bottom: none;
+	position: relative;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	height: 18px;
+    @media (max-width: 1024px){
+        font-size: 18px;
+        white-space: nowrap;
+    }
+    @media (max-width: 767px){
+        font-size: 15px;
+       
+    }
+	span {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%);
+		z-index: 2;
+		background: #fff;
+		padding: 0px 18px;
+		color: #232323;
+		display: inline-table;
+	}
+	&::after {
+		content: ' ';
+		width: 100%;
+		height: 1px;
+		background: #ddd;
+		top: 7px;
+		left: 0px;
+		position: absolute;
+	}
+}
+.bota_cat_item_store {
+	margin-bottom: 64px;
+	text-align: center;
+	ul {
+		li {
+			display: inline-block;
+			&:nth-child(2) {
+				margin: 0px 5px;
+			}
+			a {
+				padding: 12px 30px;
+				background: #e4e3e2;
+				border: 1px solid transparent;
+				font-size: 16px;
+				text-transform: uppercase;
+				display: inline-block;
+				-webkit-transition: all .3s ease-out;
+				-moz-transition: all .3s ease-out;
+				-o-transition: all .3s ease-out;
+				transition: all .3s ease-out;
+				color: #000;
+				&:hover {
+					background: #d92b34;
+					color: #fff !important;
+				}
+			}
+		}
+		.active {
+			a {
+				border: 1px solid #000;
+				background: none;
+			}
+		}
+	}
+}
+@media all and (max-width: 600px) {
+	.bota_cat_item_store {
+		margin-bottom: 30px;
+	}
+}
+@media all and (max-width: 768px) {
+	.bota_cat_item_store {
+		ul {
+			li {
+				a {
+					padding: 9px 15px;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+@media all and (max-width: 800px) {
+	.bota_cat_item_store {
+		ul {
+			li {
+				&:nth-child(6) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+@media all and (max-width: 500px) {
+	.bota_cat_item_store {
+		ul {
+			li {
+				&:nth-child(5) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.bota_product_grid {
+	margin-top: 12px;
+	margin-left: -5px;
+	margin-right: -5px;
+    >*{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+.bota_pr_item {
+    text-align: center;
+	margin-bottom: 80px;
+    @media screen and (max-width: 768px){
+        margin-bottom: 50px;
+    }
+	.bota_pr_image {
+		margin-bottom: 40px;
+		position: relative;
+		overflow: hidden;
+		height: 340px;
+        @media screen and (max-width: 768px){
+            height: 217px;
+        }
+		img {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			max-height: 100%;
+			max-width: 100%;
+			transition: all 0.7s ease 0s;
+		}
+	}
+	&:hover {
+		.bota_pr_image {
+			img {
+				transform: scale(1.05);
+			}
+		}
+		.bota_pr_name {
+			a {
+				color: #d92b34;
+			}
+		}
+	}
+	.bota_pr_name {
+		a {
+			font-size: 18px;
+			color: #313131;
+            @media (max-width: 768px){
+                font-size: 15px;
+            }
+		}
+		.bota_pr_cat_name {
+			color: #777;
+			margin-bottom: 18px;
+			display: block;
+			font-size: 14px;
+			margin-top: 6px;
+		}
+	}
+	.bota_price_old {
+		font-size: 15px;
+		color: #b1b1b1;
+		margin-bottom: 8px;
+		text-decoration: line-through;
+	}
+	.bota_pr_price_current {
+		font-size: 18px;
+		color: #e10c00;
+	}
+}
+.bota_pr_installment {
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+	background: #f28902;
+	padding: 2px 4px;
+	font-size: 13px;
+	color: #fff;
+	font-size: 11px;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 2px;
+}
+.bota_readmore_btn {
+	text-align: center;
+	width: 100%;
+    margin-bottom: 18px;
+	a {
+		span {
+			letter-spacing: 1.3px;
+			text-transform: uppercase;
+			border-radius: 5px;
+			transition: 0.5s;
+			font-size: 16px;
+			position: relative;
+			&:after {
+				width: 100%;
+				position: absolute;
+				content: "";
+				bottom: -4px;
+				height: 1px;
+				border-bottom: 1px solid #000;
+				left: 0px;
+			}
+			svg {
+				width: 25px;
+				height: 25px;
+				position: absolute;
+				left: -39px;
+				top: -3px;
+				fill: #d92b34;
+			}
+			&:hover {
+				color: #d92b34;
+				transition: 0.3s;
+				&:after {
+					border-bottom: 1px solid #d92b34;
+				}
+			}
+		}
+	}
+}
+@media all and (max-width: 768px) {
+	.xemthem {
+		a {
+			span {
+				font-size: 14px;
+			}
+		}
+	}
+}
