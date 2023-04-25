@@ -358,6 +358,41 @@
 		}
 	}
 }
+.bota_share {
+    text-align: center;
+    margin: 15px auto 0px;
+    height: 20px;
+    width: 200px;
+}
+.bota_product_detail_name h1 {
+    font-size: 23px;
+    line-height: 33px;
+    text-transform: uppercase;
+    display: inline;
+    font-weight: 500;
+}
+
+.bota_product_detail_name {
+    margin-bottom: 10px;
+}
+
+.bota_product_detail_info {
+    padding: 0 35px;
+    height: 100%;
+	.bota_product_detail_ratting {
+		margin-bottom: 25px;
+		i {
+			color: #FF9727;
+		}
+	}
+	.rate_count {
+		margin-left: 5px;
+		font-size: 12px;
+		font-weight: normal;
+		color: #8a8a8a;
+	}
+	
+}
 .fancybox-thumbs {
 	bottom: 0;
 	top: auto;

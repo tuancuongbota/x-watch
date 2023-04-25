@@ -1,3 +1,26 @@
+.hidden {
+	display: none;
+}
+.hide {
+	display: none;
+}
+.hiden {
+	display: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+        color: #d92b34 !important;
+        transition: 0.3s ease-in-out color;
+    }
+}
+img {
+    max-width: 100%;
+    transition: all .5s ease;
+	height: auto;
+}
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
         max-width: 1170px;
