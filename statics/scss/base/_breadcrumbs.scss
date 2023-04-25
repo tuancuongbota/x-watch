@@ -1,0 +1,93 @@
+.bota_breadcrumb_main {
+	.breadcrumb {
+		padding: 30px 0px 2px 0px;
+		margin-bottom: 44px;
+		display: inline-block;
+		border-bottom: 1px solid #ebebeb;
+		>li {
+			position: relative;
+		}
+		&::after {
+			display: block;
+			clear: both;
+			content: " ";
+		}
+		li {
+			display: inline-block;
+			margin-right: 20px;
+			list-style: none;
+			color: #131518;
+			position: relative;
+			line-height: 23px;
+			font-weight: bold;
+			&:last-child {
+				margin-right: 0px;
+				a {
+					position: relative;
+					color: #000000;
+					font-weight: bold;
+					&:after {
+						position: absolute;
+						content: "";
+						width: 100%;
+						height: 1px;
+						bottom: -3px;
+						left: 0px;
+						background: #d92b34;
+					}
+				}
+				&::after {
+					content: "" !important;
+					display: none;
+				}
+			}
+			a {
+				color: #999999;
+				text-decoration: none;
+				line-height: 23px;
+				font-weight: normal;
+				&:hover {
+					color: #000;
+				}
+			}
+			&::after {
+				display: block;
+				width: 14px;
+				height: 15px;
+				color: #b6af96;
+				content: "";
+				background: url('data:image/svg+xml;utf8,<svg  width="10px" height="10px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" ><path fill="gray" d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z" class=""></path></svg>');
+				background-repeat: no-repeat;
+				position: absolute;
+				top: 6px;
+				right: -21px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.bota_breadcrumb_main {
+		.breadcrumb {
+			padding: 20px 0px 2px 0px;
+			margin-bottom: 20px;
+		}
+	}
+}
+@media screen and (max-width: 400px) {
+	.bota_breadcrumb_main {
+		.breadcrumb {
+			li {
+				font-size: 13px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 360px) {
+	.bota_breadcrumb_main {
+		.breadcrumb {
+			li {
+				font-size: 12px;
+			}
+		}
+	}
+}
