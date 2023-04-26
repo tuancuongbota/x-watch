@@ -83,5 +83,14 @@ $('[data-fancybox="imagesProduct"]').fancybox({
       autoStart: true,
       axis: 'x'
     }
-  })
+  });
+  function slideshow_ordercart(){
+    $('#products_orders').owlCarousel({
+          loop: true,
+          autoplay: true,
+          items: 1,
+          nav: false,
+    });
+  }
+  slideshow_ordercart();
 });
