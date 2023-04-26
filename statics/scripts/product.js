@@ -136,4 +136,5 @@ function toogle_desc(){
         
     })
 }
+$('.lazy').Lazy();
 });

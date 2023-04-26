@@ -12,6 +12,7 @@
         <script src="statics/scripts/jquery.mmenu.all.js" type="text/javascript"></script>
         <script src="statics/scripts/magiczoomplus.js" type="text/javascript"></script>
         <script src="statics/plugins/fancybox/jquery.fancybox.min.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@13.0.1/dist/lazyload.min.js"></script>
         <script src="statics/scripts/js_custom.js" type="text/javascript"></script>
         <script src="statics/scripts/product.js" type="text/javascript"></script>
         <!-- End Css -->
@@ -1388,16 +1389,499 @@
                                  </div>
                               </div>
                               <div class="tab-pane fade" id="prodetails_tab2" role="tabpanel">
-
+                                 <blockquote>
+                                    <div class="tab_content">
+                                       <div class="bota_guarantee_tab clearfix">
+                                          <div class="img">
+                                             <img src="statics/imgs/silver_1558495571.jpg" alt="Tặng kèm gói bảo hành">
+                                          </div>
+                                          <div class="text-r">
+                                             <div class="txt1">Tặng kèm gói bảo hành</div>
+                                             <div class="txt2">Bảo hiểm Silver</div>
+                                             <div class="txt3">Trị giá 2.000.000 Đ</div>
+                                          </div>
+                                       </div>
+                                       <div class="clearfix"></div>
+                                       <div class="bota_config_guarantee">
+                                          <p><strong>BẢO HIỂM&nbsp;CẢ LỖI NGƯỜI DÙNG TRONG 5 NĂM</strong></p>
+                                          <p><strong><a href="/" rel="nofollow" target="_blank">https://baohiemxwatch.com</a></strong></p>
+                                          <p><strong>TRUNG TÂM BẢO HÀNH XWATCH</strong><br>
+                                             - Địa chỉ: 211 Xuân Thủy, Q. Cầu Giấy (Đối diện ĐH Sư Phạm HN )&nbsp;| Hotline: <a href="tel:0989514242" rel="nofollow">0989.514.242</a><br>
+                                             -&nbsp;Giờ làm việc: 10h00&nbsp;- 18h00
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </blockquote>
                               </div>
                               <div class="tab-pane fade" id="prodetails_tab3" role="tabpanel">
+                                 <div class="bota_product_user_manual">
+                                    <ul class="nav nav-tabs" id="my_user_manual_Tab" role="tablist">
+                                       <li class="nav-item" role="presentation">
+                                         <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab_1" type="button" role="tab">
+                                          Hướng dẫn vệ sinh đồng hồ
+                                         </button>
+                                       </li>
+                                       <li class="nav-item" role="presentation">
+                                         <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_2" type="button" role="tab">
+                                          Cách chỉnh đồng hồ
+                                         </button>
+                                       </li>
+                                       <li class="nav-item" role="presentation">
+                                         <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_3" type="button" role="tab">
+                                          Độ chống nước của đồng hồ
+                                         </button>
+                                       </li>
+                                       <li class="nav-item" role="presentation">
+                                          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab_4" type="button" role="tab">
+                                             Xử lý đồng hồ nhiễm từ
+                                          </button>
+                                        </li>
+                                     </ul>
+                                     <div class="tab-content" id="my_user_manual_TabContent">
+                                       <div class="tab-pane fade show active" id="tab_1" role="tabpanel">
+                                          <div class="bota_user_manual_description">
+                                             <p class="tab_tt_ct">HƯỚNG DẪN VỆ SINH ĐỒNG HỒ D&Acirc;Y DA</p>
+                                             <p>- D&ugrave;ng vải ẩm lau sạch sẽ v&agrave; để kh&ocirc; hoặc d&ugrave;ng x&agrave; ph&ograve;ng, dầu oliu l&agrave;m sạch.<br />
+                                             - Để d&acirc;y da c&ugrave;ng g&oacute;i h&uacute;t ẩm trong hộp k&iacute;n để khử m&ugrave;i h&ocirc;i.</p>
 
+                                             <p>* Ch&uacute; &yacute;:&nbsp;<br />
+                                             - Kh&ocirc;ng n&ecirc;n xả nước trực tiếp v&agrave;o d&acirc;y da đồng hồ v&igrave; sẽ l&agrave;m d&acirc;y da thấm nước v&agrave; k&eacute;m bền.<br />
+                                             - Khi d&acirc;y da bị ẩm, kh&ocirc;ng n&ecirc;n d&ugrave;ng m&aacute;y sấy v&igrave; d&acirc;y đồng hồ c&oacute; thể bị cong v&ecirc;nh, cứng lại.</p>
+                                             
+                                             <p class="tab_tt_ct">HƯỚNG DẪN VỆ SINH ĐỒNG HỒ D&Acirc;Y KIM LOẠI</p>
+                                             
+                                             <p>(*) Đối với đồng hồ c&oacute; khả năng chống nước tốt:</p>
+                                             
+                                             <p>- Chuẩn bị nước ấm, nhiệt độ tầm 50 độ C, pha với một ch&uacute;t nước rửa b&aacute;t.&nbsp;<br />
+                                             - Nh&uacute;ng to&agrave;n bộ đồng hồ v&agrave;o dung dịch n&agrave;y, ng&acirc;m trong v&ograve;ng 3 - 5 ph&uacute;t.<br />
+                                             - Sử dụng b&agrave;n chải l&ocirc;ng mềm cọ rửa c&aacute;c kẽ hở tr&ecirc;n d&acirc;y đồng hồ rồi rửa lại bằng nước sạch.&nbsp;</p>
+                                             
+                                             <p>(*) Đối với đồng hồ c&oacute; khả năng chống nước k&eacute;m:</p>
+                                             
+                                             <p>- Lấy một chiếc tăm nhỏ để lấy đi c&aacute;c vết bẩn trong c&aacute;c khe hở.&nbsp;<br />
+                                             - Xoa đều kem đ&aacute;nh răng l&ecirc;n d&acirc;y đồng hồ, sử dụng b&agrave;n chải mềm l&agrave;m sạch rồi rửa lại với nước sạch.</p>
+                                             <p class="tab_tt_ct">HƯỚNG DẪN VỆ SINH ĐỒNG HỒ D&Acirc;Y NATO/D&Acirc;Y VẢI</p>
+
+                                             <p>(*) Khi d&acirc;y vải bị d&iacute;nh dầu mỡ:</p>
+
+                                             <p>- Xịt ướt d&acirc;y đồng hồ với oxi gi&agrave;.<br />
+                                             - Rắc đều bột nở l&ecirc;n d&acirc;y đồng hồ, d&ugrave;ng b&agrave;n chải l&ocirc;ng mềm cọ sạch.<br />
+                                             - Sau 30 ph&uacute;t xả qua nước v&agrave; phơi kh&ocirc;.</p>
+
+                                             <p>(*) Khi d&acirc;y vải bị d&iacute;nh mực b&uacute;t bi:</p>
+
+                                             <p>- B&ocirc;i kem đ&aacute;nh răng v&agrave; x&agrave; ph&ograve;ng v&agrave;o vết mực d&iacute;nh tr&ecirc;n d&acirc;y đồng hồ.<br />
+                                             - D&ugrave;ng b&agrave;n chải l&ocirc;ng mềm cọ sạch.<br />
+                                             - Thoa th&ecirc;m một &iacute;t cồn l&ecirc;n vết bẩn rồi v&ograve; lại với nước sạch.&quot;</p>
+                                          </div>
+                                       </div>
+                                       <div class="tab-pane fade" id="tab_2" role="tabpanel">
+                                          <div class="bota_user_manual_description">
+                                             <p class="tab_tt_ct">C&Aacute;CH CHỈNH GIỜ ĐỒNG HỒ &nbsp;2 - 3 KIM</p>
+
+                                             <p>- Bước 1: K&eacute;o n&uacute;m ra 1 nấc.<br />
+                                             - Bước 2: Xoay n&uacute;m theo chiều kim đồng hồ để điều chỉnh giờ &ndash; ph&uacute;t.<br />
+                                             - Bước 3: Đ&oacute;ng n&uacute;m lại vị tr&iacute; ban đầu.&nbsp;</p>
+                                             
+                                             <p class="tab_tt_ct">C&Aacute;CH CHỈNH GIỜ ĐỒNG HỒ 2 - 3 KIM, 1 LỊCH NG&Agrave;Y</p>
+                                             
+                                             <p>- Bước 1: &nbsp;R&uacute;t n&uacute;m chỉnh 1 nấc để chỉnh lịch.<br />
+                                             - Bước 2: Vặn n&uacute;m chỉnh ngược chiều kim đồng hồ để chỉnh lịch ng&agrave;y như mong muốn.<br />
+                                             - Bước 3: R&uacute;t n&uacute;m chỉnh th&ecirc;m 1 nấc nữa để chỉnh giờ - ph&uacute;t.<br />
+                                             - Bước 4: Vặn n&uacute;m chỉnh để chỉnh tăng - giảm giờ ph&uacute;t như mong muốn.<br />
+                                             - Bước 5: Đẩy n&uacute;m chỉnh kh&iacute;t lại như ban đầu</p>
+                                             
+                                             <p class="tab_tt_ct">C&Aacute;CH CHỈNH GIỜ ĐỒNG HỒ 2 - 3 KIM, 2 LỊCH THỨ - NG&Agrave;Y</p>
+                                             
+                                             <p>- Bước 1: R&uacute;t n&uacute;m chỉnh 1 nấc để chỉnh lịch thứ - ng&agrave;y.<br />
+                                             - Bước 2: Vặn n&uacute;m chỉnh theo chiều kim đồng hồ để chỉnh lịch ng&agrave;y.<br />
+                                             - Bước 3: Vặn n&uacute;m chỉnh ngược chiều kim đồng hồ để chỉnh lịch thứ.<br />
+                                             - Bước 4: R&uacute;t n&uacute;m chỉnh th&ecirc;m một nấc nữa để chỉnh giờ - ph&uacute;t.<br />
+                                             - Bước 5: Vặn n&uacute;m theo chiều kim đồng hồ để tăng dần giờ - ph&uacute;t, ngược chiều để giảm dần.<br />
+                                             - Bước 6: Đẩy n&uacute;m chỉnh kh&iacute;t lại như ban đầu</p>
+                                             
+                                             <p class="tab_tt_ct">C&Aacute;CH CHỈNH GIỜ ĐỒNG HỒ 6 KIM - 3 N&Uacute;T</p>
+                                             
+                                             <p>(*) C&aacute;ch chỉnh ng&agrave;y:<br />
+                                             - Bước 1: K&eacute;o n&uacute;t giữa của đồng hồ ra một nấc.<br />
+                                             - Bước 2: Vặn chỉnh đến khi hiển thị số ng&agrave;y mong muốn.<br />
+                                             - Bước 3: Đẩy n&uacute;t giữa về vị tr&iacute; ban đầu.</p>
+                                             
+                                             <p>(*) C&aacute;ch chỉnh giờ, ph&uacute;t:</p>
+                                             
+                                             <p>- Bước 1: K&eacute;o n&uacute;t giữa của đồng hồ ra hai nấc.<br />
+                                             - Bước 2: Vặn cho cho kim ph&uacute;t xoay (chỉ đi tới kh&ocirc;ng đỉ l&ugrave;i) đến vị tr&iacute; thời gian mong muốn.<br />
+                                             - Bước 2: Sau khi chỉnh xong ta đẩy n&uacute;t giữa về vị tr&iacute; ban đầu.</p>
+                                             
+                                             <p>(*) C&aacute;ch sử dụng chức năng Chronograph:</p>
+                                             
+                                             <p>- Bước 1: Bấm n&uacute;t ph&iacute;a tr&ecirc;n 1 lần =&gt; kim gi&acirc;y trung t&acirc;m hay c&ograve;n được gọi kim gi&acirc;y của giờ thể thao (Chronograph gi&acirc;y) bắt đầu chạy.<br />
+                                             - Bước 2: Bấm lại một lần nữa =&gt; chiếc kim n&agrave;y sẽ dừng lại.<br />
+                                             - Bước 3: Xem số ph&uacute;t tr&ocirc;i qua bằng c&aacute;ch nh&igrave;n v&agrave;o mặt đồng hồ phụ hiển thị 60 ph&uacute;t v&agrave; số gi&acirc;y tr&ocirc;i qua th&igrave; ta xem ở kim gi&acirc;y trung t&acirc;m.<br />
+                                             
+                                          </div>
+                                       </div>
+                                       <div class="tab-pane fade" id="tab_3" role="tabpanel">
+                                          <div class="bota_user_manual_description">
+                                             <p>ĐỘ CHỐNG NƯỚC 30M (3ATM)</p>
+
+                                             <p>- C&oacute; thể đeo đồng hồ khi rửa tay, đi mưa nhẹ<br />
+                                             - Kh&ocirc;ng điều chỉnh n&uacute;m đồng hồ khi ở dưới nước<br />
+                                             - Kh&ocirc;ng đeo đồng hồ khi đi tắm hơi.</p>
+                                             
+                                             <p>ĐỘ CHỐNG NƯỚC 50M (5ATM)</p>
+                                             
+                                             <p>- C&oacute; thể đeo đồng hồ khi rửa tay, đi mưa, hoạt động ở v&ugrave;ng nước n&ocirc;ng<br />
+                                             - Kh&ocirc;ng điều chỉnh n&uacute;m đồng hồ khi ở dưới nước<br />
+                                             - Kh&ocirc;ng đeo đồng hồ khi đi tắm hơi.</p>
+                                             
+                                             <p>ĐỘ CHỐNG NƯỚC 100M (10ATM)</p>
+                                             
+                                             <p>- C&oacute; thể đeo đồng hồ khi rửa tay, đi mưa, bơi lội<br />
+                                             - Kh&ocirc;ng điều chỉnh n&uacute;m đồng hồ khi ở dưới nước<br />
+                                             - Kh&ocirc;ng đeo đồng hồ khi đi tắm hơi.</p>
+                                             
+                                             <p>ĐỒNG HỒ LẶN ĐỘ CHỐNG NƯỚC 200M (20ATM)</p>
+                                             
+                                             <p>- Đồng hồ được thiết kế cho c&aacute;c hoạt động lặn biển chuy&ecirc;n dụng ở độ s&acirc;u đến 200m ở điều kiện nước tĩnh.<br />
+                                             - Kh&ocirc;ng đeo đồng hồ khi đi tắm hơi.&quot;</p>
+                                          </div>
+                                       </div>
+                                       <div class="tab-pane fade" id="tab_4" role="tabpanel">
+                                          <div class="bota_user_manual_description">
+                                             <p class="tab_tt_ct">XỬ L&Yacute; ĐỒNG HỒ NHIỄM TỪ</p>
+
+                                             <p>- Cho đồng hồ đeo tay lướt qua lướt lại nhiều lần qua một v&ograve;ng sắt nhỏ kh&ocirc;ng bị nhiễm từ, sau v&agrave;i ph&uacute;t đồng hồ của bạn sẽ nhả hết từ v&agrave; phục hồi lại trạng th&aacute;i ban đầu.<br />
+                                             - Chuy&ecirc;n gia Xwatch khuyến c&aacute;o bạn n&ecirc;n mang đồng hồ đến trung t&acirc;m bảo h&agrave;nh, sửa chữa để kiểm tra v&agrave; xử l&yacute; bằng thiết bị chuy&ecirc;n dụng.</p>
+                                             
+                                             <p class="tab_tt_ct">LƯU &Yacute;</p>
+                                             
+                                             <p>- Hạn chế để đồng hồ gần vật c&oacute; từ trường mạnh như: tủ lạnh, tivi, th&ugrave;ng loa, m&aacute;y vi t&iacute;nh, điện thoại di động, radio, tia X-quang, bếp từ v&agrave; c&aacute;c thiết bị điện tử c&oacute; chi tiết nam ch&acirc;m..</p>
+                                             
+                                          </div>
+                                       </div>
+                                     </div>
+                                 </div>
                               </div>
                             </div>
                         </div>
+                     <div class="bota_product_details_button clearfix">
+                        <figure>
+                           <img width="94" height="120" src="statics/imgs/dong-ho-olympia-star-opa58082lsk-t_1625820738.jpg" alt="Đồng hồ Olympia Star OPA58082LSK-T" />
+                        </figure>
+                        <div class="bota_product_details_button_info">
+                           <h3>Đồng hồ Olympia Star OPA58082LSK-T</h3>
+                           <div class='price_old'>5.060.000₫</div>
+                           <div class='price_current' id="price">
+                              4.270.000₫
+                           </div>
+                        </div>
+                        <div class="bota_product_details_button_wrap">
+                           <div class="bota_product_detail_order_fast">
+                              <form name="form_regis_phone" id="form_regis_phone" method="post">
+                                 <div class="text-regis-phone">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="512pt" viewBox="0 0 512 512" width="512pt">
+                                       <path d="m325.621094 250.042969c17.59375-17.59375 17.597656-46.070313 0-63.664063-17.550782-17.550781-46.109375-17.550781-63.660156 0-17.59375 17.59375-17.597657 46.066406 0 63.664063 17.550781 17.550781 46.109374 17.550781 63.660156 0zm-42.441406-42.445313c5.851562-5.847656 15.371093-5.847656 21.222656 0 5.863281 5.867188 5.863281 15.355469 0 21.222656-5.855469 5.851563-15.371094 5.847657-21.222656 0-5.863282-5.863281-5.863282-15.355468 0-21.222656zm0 0"/>
+                                       <path d="m50.859375 371.289062-50.859375 140.710938 140.710938-50.859375c13.765624-3.128906 26.320312-10.070313 36.367187-20.113281 11.628906-11.628906 18.953125-26.425782 21.203125-42.457032l8.714844 8.714844 14.0625-9.375 21.074218 105.386719 108.789063-108.789063 4.761719-92.558593c13.589844-11.660157 26.738281-23.824219 39.375-36.460938 55.066406-55.066406 89.273437-134.613281 89.273437-207.601562v-9.230469l27.433594-27.4375-21.21875-21.21875-27.433594 27.4375h-9.234375c-75.03125 0-153.460937 35.597656-207.367187 89.503906-12.636719 12.636719-24.800781 25.785156-36.460938 39.375l-92.558593 4.761719-108.785157 108.789063 105.382813 21.078124-9.375 14.058594 8.714844 8.71875c-16.03125 2.246094-30.828126 9.570313-42.457032 21.203125-10.042968 10.042969-16.980468 22.597657-20.113281 36.363281zm92.472656-70.109374 16.976563-25.464844 75.976562 75.976562-25.464844 16.976563zm178.210938 80.265624-60.976563 60.976563-12.503906-62.515625c32.25-21.792969 49.195312-31.917969 76.265625-52.578125zm132.777343-324v.441407c0 21.640625-3.402343 43.949219-9.738281 65.914062l-56.546875-56.546875c21.964844-6.378906 44.25-9.808594 65.84375-9.808594zm-186.585937 80.71875c25.324219-25.324218 56.226563-45.757812 89.035156-59.734374l76.695313 76.695312c-13.941406 32.90625-34.335938 63.851562-59.628906 89.144531-55.980469 55.980469-106.046876 86.023438-112.085938 90.445313l-84.464844-84.460938c4.371094-5.972656 34.707032-56.347656 90.449219-112.089844zm-198.15625 113.273438 60.980469-60.980469 54.113281-2.78125c-20.6875 27.101563-30.785156 44.015625-52.578125 76.261719zm10.40625 127.144531c1.800781-8.492187 6.023437-16.25 12.210937-22.4375 17.558594-17.558593 46.097657-17.558593 63.660157 0 17.5625 17.5625 17.5625 46.101563 0 63.664063-6.1875 6.1875-13.945313 10.40625-22.4375 12.207031l-1.011719.21875-82.429688 29.792969 29.792969-82.429688zm0 0"/>
+                                    </svg>
+                                    Tư vấn miễn phí 
+                                 </div>
+                                 <div class="wrapper-infor">
+                                    <input type="text" name="telephone_buy_fast" id="telephone_buy_fast" placeholder="Để lại số điện thoại..." class="keyword">
+                                    <input type="button" name="submit-res" value="Gửi" class="bt-phone2 button-sub button">
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                        <div class="clear"></div>
+                     </div>
+                     <div class="bota_product_related">
+                        <div class="bota_title_mains">
+                           <h3>SẢN PHẨM ĐANG RẤT ĐƯỢC QUAN TÂM</h3>
+                        </div>
+                        <div class="bota_product_related_cont">
+                           <div class="owl-related-item owl-carousel owl-theme">
+                              <div class="item">
+                                 <div class="bota_pr_related_item">
+                                    <a href="product_view.html" title="Đồng hồ Olym Pianus OP24591DLSK-T">
+                                       <div class="bota_pr_related_img">
+                                          <img src="statics/imgs/product-img9.jpg" alt="Đồng hồ Olym Pianus OP24591DLSK-T" />
+                                       </div>
+                                       <div class="bota_pr_related_cont">
+                                          <div class="bota_pr_related_name">
+                                             Đồng hồ Olym Pianus OP24591DLSK
+                                          </div>
+                                          <div class="bota_pr_related_price">
+                                             <div class="price_old">4.660.000đ</div>
+                                             <div class="price_discount">3.940.000đ</div>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="item">
+                                 <div class="bota_pr_related_item">
+                                    <a href="product_view.html" title="Đồng hồ Olym Pianus OP24591DLSK-T">
+                                       <div class="bota_pr_related_img">
+                                          <img src="statics/imgs/product-img9.jpg" alt="Đồng hồ Olym Pianus OP24591DLSK-T" />
+                                       </div>
+                                       <div class="bota_pr_related_cont">
+                                          <div class="bota_pr_related_name">
+                                             Đồng hồ Olym Pianus OP24591DLSK
+                                          </div>
+                                          <div class="bota_pr_related_price">
+                                             <div class="price_old">4.660.000đ</div>
+                                             <div class="price_discount">3.940.000đ</div>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="item">
+                                 <div class="bota_pr_related_item">
+                                    <a href="product_view.html" title="Đồng hồ Olym Pianus OP24591DLSK-T">
+                                       <div class="bota_pr_related_img">
+                                          <img src="statics/imgs/product-img9.jpg" alt="Đồng hồ Olym Pianus OP24591DLSK-T" />
+                                       </div>
+                                       <div class="bota_pr_related_cont">
+                                          <div class="bota_pr_related_name">
+                                             Đồng hồ Olym Pianus OP24591DLSK
+                                          </div>
+                                          <div class="bota_pr_related_price">
+                                             <div class="price_old">4.660.000đ</div>
+                                             <div class="price_discount">3.940.000đ</div>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="item">
+                                 <div class="bota_pr_related_item">
+                                    <a href="product_view.html" title="Đồng hồ Olym Pianus OP24591DLSK-T">
+                                       <div class="bota_pr_related_img">
+                                          <img src="statics/imgs/product-img9.jpg" alt="Đồng hồ Olym Pianus OP24591DLSK-T" />
+                                       </div>
+                                       <div class="bota_pr_related_cont">
+                                          <div class="bota_pr_related_name">
+                                             Đồng hồ Olym Pianus OP24591DLSK
+                                          </div>
+                                          <div class="bota_pr_related_price">
+                                             <div class="price_old">4.660.000đ</div>
+                                             <div class="price_discount">3.940.000đ</div>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="item">
+                                 <div class="bota_pr_related_item">
+                                    <a href="product_view.html" title="Đồng hồ Olym Pianus OP24591DLSK-T">
+                                       <div class="bota_pr_related_img">
+                                          <img src="statics/imgs/product-img9.jpg" alt="Đồng hồ Olym Pianus OP24591DLSK-T" />
+                                       </div>
+                                       <div class="bota_pr_related_cont">
+                                          <div class="bota_pr_related_name">
+                                             Đồng hồ Olym Pianus OP24591DLSK
+                                          </div>
+                                          <div class="bota_pr_related_price">
+                                             <div class="price_old">4.660.000đ</div>
+                                             <div class="price_discount">3.940.000đ</div>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="item">
+                                 <div class="bota_pr_related_item">
+                                    <a href="product_view.html" title="Đồng hồ Olym Pianus OP24591DLSK-T">
+                                       <div class="bota_pr_related_img">
+                                          <img src="statics/imgs/product-img9.jpg" alt="Đồng hồ Olym Pianus OP24591DLSK-T" />
+                                       </div>
+                                       <div class="bota_pr_related_cont">
+                                          <div class="bota_pr_related_name">
+                                             Đồng hồ Olym Pianus OP24591DLSK
+                                          </div>
+                                          <div class="bota_pr_related_price">
+                                             <div class="price_old">4.660.000đ</div>
+                                             <div class="price_discount">3.940.000đ</div>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="item">
+                                 <div class="bota_pr_related_item">
+                                    <a href="product_view.html" title="Đồng hồ Olym Pianus OP24591DLSK-T">
+                                       <div class="bota_pr_related_img">
+                                          <img src="statics/imgs/product-img9.jpg" alt="Đồng hồ Olym Pianus OP24591DLSK-T" />
+                                       </div>
+                                       <div class="bota_pr_related_cont">
+                                          <div class="bota_pr_related_name">
+                                             Đồng hồ Olym Pianus OP24591DLSK
+                                          </div>
+                                          <div class="bota_pr_related_price">
+                                             <div class="price_old">4.660.000đ</div>
+                                             <div class="price_discount">3.940.000đ</div>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="bota_block_certifications">
+                        <div class="bota_block_title">
+                           <span> Giấy chứng nhận đồng hồ OP Olym Pianus - Olympia Star chính hãng</span>
+                        </div>
+                        <div class="bota_certifications clearfix">
+                           <div class="bota_certifications_body clearfix">
+                              <div class="item">
+                                 <img width="184" height="254" class="lazy" data-src="statics/imgs/giay-chung-nhan-ogival-op_1562214803.jpg" alt="" >
+                              </div>
+                              <div class="item">
+                                 <img width="184" height="254" class="lazy" data-src="statics/imgs/giay-chung-nhan-dhch-xwatch_1562214829.jpg" alt="" >
+                              </div>
+                              <div class="item">
+                                 <img width="184" height="254" class="lazy" data-src="statics/imgs/cup-vang-thuong-hieu_1562214850.jpg" alt="" >
+                              </div>
+                              <div class="item">
+                                 <img width="184" height="254" class="lazy" data-src="statics/imgs/cup-vang-thuong-hieu-xwatch_1562214863.jpg" alt="" >
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="comments_facebook">
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                           var js, fjs = d.getElementsByTagName(s)[0];
+                           if (d.getElementById(id)) return;
+                           js = d.createElement(s); js.id = id;
+                           js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1";
+                           fjs.parentNode.insertBefore(js, fjs);
+                           }(document, 'script', 'facebook-jssdk'));
+                        </script>
+                        <div class="fb-comments" data-href="product_view.html" data-width="100%" data-numposts="5" data-order-by="reverse_time"></div>
+                     </div>
                      </div>
                      <div class="col-xl-4 col-lg-4 col-sm-12 bota_product_detail_right">
-                        
+                        <div class="bota_product_detail_info_right">
+                           <div class="bota_title_detail_char">
+                              <svg viewBox="0 0 44.688 44.688" style="enable-background:new 0 0 44.688 44.688;" xml:space="preserve">
+                                 <g>
+                                    <g>
+                                       <path d="M25.013,39.119c-0.336,0.475-0.828,0.82-1.389,0.975l-2.79,0.762c-0.219,0.062-0.445,0.094-0.673,0.094    c-0.514,0-1.011-0.157-1.43-0.452c-0.615-0.428-1.001-1.103-1.062-1.834l-0.245-2.881c-0.058-0.591,0.101-1.183,0.437-1.659    l0.103-0.148H8.012c-0.803,0-1.454-0.662-1.454-1.463c0-0.804,0.651-1.466,1.454-1.466h12.046l2.692-3.845H8.012    c-0.803,0-1.454-0.662-1.454-1.465s0.651-1.465,1.454-1.465l16.811-0.043l6.304-9.039V8.497c0-1.1-0.851-1.988-1.948-1.988h-4.826    v3.819c0,1.803-1.474,3.229-3.274,3.229h-9.706c-1.804,0-3.227-1.427-3.227-3.229V6.509H3.268c-1.099,0-1.988,0.889-1.988,1.988    V42.65c0,1.1,0.89,2.037,1.988,2.037h25.909c1.1,0,1.949-0.938,1.949-2.037V30.438L25.013,39.119z M8.012,17.496h16.424    c0.801,0,1.453,0.661,1.453,1.464c0,0.803-0.652,1.465-1.453,1.465H8.012c-0.803,0-1.454-0.662-1.454-1.465    C6.558,18.157,7.209,17.496,8.012,17.496z"></path>
+                                       <path d="M11.4,11.636h9.697c0.734,0,1.331-0.596,1.331-1.332V4.727c0-0.736-0.597-1.332-1.331-1.332h-1.461    C19.626,1.52,18.102,0,16.223,0c-1.88,0-3.402,1.519-3.413,3.395H11.4c-0.736,0-1.331,0.596-1.331,1.332v5.576    C10.069,11.039,10.664,11.636,11.4,11.636z M16.224,1.891c0.835,0,1.512,0.672,1.521,1.505H14.7    C14.71,2.563,15.388,1.891,16.224,1.891z"></path>
+                                       <path d="M43.394,8.978c-0.045-0.248-0.186-0.465-0.392-0.609l-2.428-1.692c-0.164-0.115-0.353-0.17-0.539-0.17    c-0.296,0-0.591,0.14-0.772,0.403L22.064,31.573l3.973,2.771L43.238,9.682C43.38,9.477,43.437,9.224,43.394,8.978z"></path>
+                                       <path d="M19.355,35.6l0.249,2.896c0.012,0.167,0.101,0.316,0.236,0.412c0.096,0.066,0.209,0.104,0.321,0.104    c0.049,0,0.099-0.007,0.147-0.021l2.805-0.768c0.127-0.035,0.237-0.113,0.313-0.22l1.053-1.51l-3.976-2.772l-1.053,1.51    C19.376,35.338,19.341,35.469,19.355,35.6z"></path>
+                                    </g>
+                                 </g>
+                              </svg>
+                              Thông tin sản phẩm
+                           </div>
+                           <div class="table-condensed compare_table">
+                              <table class="table" cellpadding="0" width="100%">
+                                 <tbody>
+                                    <tr class="tr-0" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Nhãn hiệu:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          Olympia Star															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-1" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Nguồn gốc:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          Thụy Sĩ															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-0" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Kiểu máy:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          Quartz (Máy pin)															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-1" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Kích cỡ:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          28 mm															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-0" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Độ dày:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          5mm															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-1" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Chất liệu vỏ:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          Thép không gỉ 316L/Mạ vàng PVD															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-0" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Chất liệu dây:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          Thép không gỉ															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-1" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Chất liệu kính:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          Sapphire															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-0" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Độ chịu nước:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          30 m															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-1" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Bảo hiểm:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          5 năm cả lỗi người dùng tại Xwatch															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-0" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Bảo hành quốc tế:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          1 năm															
+                                       </td>
+                                    </tr>
+                                    <tr class="tr-1" valign="top">
+                                       <td class="title_charactestic" width="40%">
+                                          Giới tính:
+                                       </td>
+                                       <td class="content_charactestic">
+                                          Nữ																									
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
