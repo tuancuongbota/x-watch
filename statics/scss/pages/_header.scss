@@ -1,9 +1,12 @@
 .bota_header{
-	padding: 16px 0px 16px 0px;
     background: #000;
-    @media screen and (max-width: 1024px){
-        padding: 10px 0;
+    &_top{
+        padding: 16px 0px 16px 0px;
+        @media screen and (max-width: 1024px){
+            padding: 10px 0;
+        }
     }
+    
     .bota_header_right {
         display: flex;
         justify-content: flex-end;
