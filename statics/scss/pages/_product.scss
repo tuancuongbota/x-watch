@@ -689,6 +689,9 @@
    .bota_product_detail_right {
 	   width: 29%;
    }
+   .bota_product_detail_center_left {
+   	 width: 71%;
+	}
 }
 
 .bota_block_custom_column {
@@ -746,6 +749,332 @@
 			svg {
 				width: 30px;
 				height: 30px;
+			}
+		}
+	}
+}
+.bota_product_detail_tab {
+	margin-top: 30px;
+}
+#my_product_deatil_Tab {
+	margin-bottom: 30px;
+	border: none !important;
+	li {
+		width: calc(100% / 3);
+		box-sizing: border-box;
+		text-align: center;
+		position: relative;
+		overflow: hidden;
+		button {
+			padding: 18px 30px 18px 0;
+			font-size: 18px;
+			display: inline-block;
+			text-transform: uppercase;
+			color: #969696;
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 0;
+			border: 1px solid #ebebeb !important;
+			border-left: 0px !important;
+			border-radius: unset !important;
+			&.active {
+				border-bottom: none !important;
+				&:before {
+					content: "";
+					width: 100%;
+					height: 3px;
+					background: #d92b34;
+					position: absolute;
+					top: 0px;
+					left: 0px;
+				}
+				color: #000;
+			}
+		}
+		&:last-child button {
+			border-right: 0px;
+		}
+	}
+}
+.bota_product_related {
+	position: relative;
+	overflow: hidden;
+	.bota_product_related_cont {
+		position: relative;
+		margin-bottom: 15px;
+		&:hover {
+			.owl-nav {
+				.owl-prev {
+					left: 5px;
+				}
+				.owl-next {
+					right: 5px;
+				}
+			}
+		}
+	}
+	.owl-nav {
+		[class*=owl-] {
+			position: absolute;
+			top: 45%;
+			right: -50px;
+			-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+			width: 40px;
+			height: 40px;
+			line-height: 35px;
+			border-radius: 50%;
+			text-align: center;
+			font-size: 35px;
+			color: #fff;
+			background: #405263;
+			opacity: 0.5;
+			z-index: 10;
+			-webkit-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+			&:hover {
+				cursor: pointer;
+				opacity: 0.7;
+			}
+		}
+	}
+}
+.bota_title_mains {
+	h3 {
+		margin: 20px 0 10px;
+		padding-bottom: 5px;
+		text-align: left;
+		font-size: 20px;
+		font-weight: bold;
+		color: #333333;
+		line-height: 1.1;
+	}
+}
+.bota_pr_related_item {
+	position: relative;
+	text-align: center;
+	.bota_pr_related_img {
+		height: 231px;
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 10px;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: all 0.15s ease-in-out;
+		}
+	}
+	&:hover {
+		.bota_pr_related_img {
+			img {
+				transform: scale(1.1);
+			}
+		}
+	}
+	.bota_pr_related_cont {
+		.bota_pr_related_name {
+			text-align: center;
+			margin: 18px 0 0;
+			font-size: 14px;
+			color: #777777;
+			line-height: 1.3;
+			font-weight: 400;
+			height: 35px;
+			-webkit-line-clamp: 2;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+		.bota_pr_related_price {
+			.price_old {
+				margin-top: 5px;
+				font-size: 15px;
+				color: #B1B1B1;
+				text-decoration: line-through;
+			}
+			.price_discount {
+				font-weight: bold;
+				color: #E10C00;
+				font-size: 16px;
+				margin: 8px 0 4px;
+			}
+		}
+	}
+}
+.bota_product_tab_content {
+	margin-bottom: 60px;
+}
+.bota_product_tab_desc {
+	line-height: 24px;
+	max-height: 500px;
+	transition: height 75ms;
+	overflow: hidden;
+	table {
+		border-collapse: collapse;
+		width: 100%;
+		td {
+			border: 1px solid #ddd;
+			padding: 8px;
+		}
+		#customers {
+			th {
+				border: 1px solid #ddd;
+				padding: 8px;
+			}
+		}
+		tr {
+			&:nth-child(even) {
+				background-color: #f2f2f2;
+			}
+			&:hover {
+				background-color: #ddd;
+			}
+		}
+		th {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			text-align: left;
+			background-color: var(--main-color);
+			color: white;
+		}
+	}
+	figure {
+		margin: 10px 0;
+		text-align: center;
+		figcaption {
+			font-style: italic;
+		}
+	}
+	ul {
+		li {
+			padding-left: 29px !important;
+			position: relative;
+			&:after {
+				content: "";
+				color: #e6e6e6;
+				position: absolute;
+				top: 10px;
+				left: 8px;
+				width: 6px;
+				height: 6px;
+				background: #bdbdbd;
+				border-radius: 50%;
+			}
+		}
+	}
+	em {
+		font-style: italic;
+	}
+	i {
+		font-style: italic;
+	}
+	h2 {
+		margin-top: 10px;
+		@media screen and (max-width: 600px) {
+			margin-top: 10px;
+			font-size: 15px;
+		}
+	}
+	h3 {
+		margin-top: 10px;
+		@media screen and (max-width: 600px) {
+			margin-top: 10px;
+			font-size: 15px;
+		}
+	}
+	h4 {
+		margin-top: 10px;
+		@media screen and (max-width: 600px) {
+			margin-top: 10px;
+			font-size: 15px;
+		}
+	}
+	p {
+		margin-top: 10px;
+		@media screen and (max-width: 600px) {
+			margin-top: 10px;
+			font-size: 15px;
+		}
+	}
+	div {
+		margin-top: 10px;
+		@media screen and (max-width: 600px) {
+			margin-top: 10px;
+			font-size: 15px;
+		}
+	}
+	a {
+		color: #3a70f1;
+	}
+}
+#bota_readmore_desc {
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 28px;
+	font-size: 15px;
+	span {
+		text-align: center;
+		color: #d92b34;
+		padding: 10px 60px 10px 40px;
+		border-radius: 5px;
+		position: relative;
+		cursor: pointer;
+		-moz-transition: all 0.2s ease-in 0;
+		-webkit-transition: all 0.2s ease-in;
+		-webkit-transition-delay: 0;
+		transition: all 0.2s ease-in 0;
+		display: inline-block;
+		border: 1px solid #e9e9e98a;
+		&:hover {
+			background: #f3f3f3;
+			&::after {
+				-moz-transition: all 0.2s ease-in 0;
+				-webkit-transition: all 0.2s ease-in;
+				-webkit-transition-delay: 0;
+				transition: all 0.2s ease-in 0;
+				border-top: 10px solid var(--main-color);
+			}
+		}
+		&::before {
+			border-left: 8px solid transparent;
+			border-right: 8px solid transparent;
+			border-top: 8px solid #d92b34;
+			display: inline-block;
+			width: 0;
+			height: 0;
+			position: absolute;
+			right: 27px;
+			top: 15px;
+			vertical-align: top;
+			content: '';
+			border-radius: 3px;
+		}
+		&::after {
+			border-left: 8px solid transparent;
+			border-right: 8px solid transparent;
+			border-top: 8px solid #FFF;
+			display: inline-block;
+			width: 0;
+			height: 0;
+			position: absolute;
+			right: 27px;
+			top: 12px;
+			vertical-align: top;
+			content: '';
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	#bota_readmore_desc {
+		span {
+			padding: 6px 34px 6px 20px;
+			&::before {
+				right: 12px;
+			}
+			&::after {
+				right: 12px;
 			}
 		}
 	}

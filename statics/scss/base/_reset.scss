@@ -21,6 +21,69 @@ img {
     transition: all .5s ease;
 	height: auto;
 }
+.figcaption {
+	font-style: italic;
+}
+input {
+	font-family: inherit;
+	font-size: 14px;
+	font-style: inherit;
+	font-weight: inherit;
+	*font-size: 100%;
+}
+button {
+	font-family: inherit;
+	font-size: 14px;
+	font-style: inherit;
+	font-weight: inherit;
+	*font-size: 100%;
+}
+textarea {
+	font-family: inherit;
+	font-size: 14px;
+	font-style: inherit;
+	font-weight: inherit;
+	*font-size: 100%;
+}
+select {
+	font-family: inherit;
+	font-size: 14px;
+	font-style: inherit;
+	font-weight: inherit;
+	*font-size: 100%;
+}
+optgroup {
+	font-family: inherit;
+	font-size: 14px;
+	font-style: inherit;
+	font-weight: inherit;
+}
+option {
+	font-family: inherit;
+	font-size: 14px;
+	font-style: inherit;
+	font-weight: inherit;
+}
+table {
+	font-size: inherit;
+	border-collapse: collapse;
+}
+pre {
+	font-family: monospace;
+	line-height: 100%;
+}
+code {
+	font-family: monospace;
+	line-height: 100%;
+}
+kbd {
+	font-family: monospace;
+	line-height: 100%;
+}
+samp {
+	font-family: monospace;
+	line-height: 100%;
+}
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
         max-width: 1170px;

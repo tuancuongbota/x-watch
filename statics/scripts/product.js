@@ -93,4 +93,47 @@ $('[data-fancybox="imagesProduct"]').fancybox({
     });
   }
   slideshow_ordercart();
+  $('.owl-related-item').owlCarousel({
+    loop:true,
+    nav:true,
+    navText:[ "‹","›"],
+    dots:false,
+  autoHeight:true,
+    autoplay: false,
+    autoplayTimeout:4000,
+    items:4,
+    margin:15,
+    lazyLoad : true,
+    responsive:{
+          0:{
+              items:1,
+          },
+          380:{
+              items:1,
+          },
+          500:{
+              items:2,
+              
+          },
+          1170:{
+              items:4,
+              
+          },  
+
+     }
+});
+toogle_desc();
+function toogle_desc(){
+    var expandedHeight = $('.bota_product_tab_desc').height();
+    $('#bota_readmore_desc span').click(function(){
+        if($(this).hasClass('closed')){
+            $(this).removeClass('closed').addClass('opened');
+            $('.bota_product_tab_desc').css('max-height','none');
+        }else{
+            $('.bota_product_tab_desc').css('max-height','400px');
+            $(this).removeClass('opened').addClass('closed');
+        }
+        
+    })
+}
 });
