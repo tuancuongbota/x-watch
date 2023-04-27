@@ -1,0 +1,134 @@
+.bota_title_page {
+	margin: 0px 0px 0px 0px;
+	font-size: 30px;
+	color: #414c5c;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 35px;
+	text-transform: uppercase;
+    @media only screen and (max-width: 1100px){
+        text-align: center;
+        margin-bottom: 23px;
+        padding-bottom: 15px;
+        border-top: 1px solid #ddd;
+        padding-top: 19px;
+    }
+}
+.bota_brand_list_char {
+	border-bottom: 1px solid #ddd;
+	padding: 30px 0px 30px 0px;
+	margin-bottom: 40px;
+	>ul {
+		padding-left: 0px;
+		margin-bottom: 0px;
+	}
+	ul {
+		li {
+			display: inline-block;
+			list-style: none;
+			margin-right: 23px;
+			a {
+				&:hover {
+					color: #c4161c;
+				}
+				font-size: 20px;
+				color: #414c5c;
+				font-family: "arial";
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.bota_brand_page {
+    .item {
+        margin-bottom: 30px;
+    }
+    .item.col-lg-6.col-md-6 {
+        width: 100% !important;
+        margin-bottom: 15px !important;
+        float: left;
+        max-width: 100% !important;
+    }
+    .letter_item {
+        margin: 0px 20px 20px 0px; 
+        max-width: 144px;
+        min-height: 96px;
+        background: url(../imgs/background.jpg) no-repeat;
+        padding-top: 5px;
+        display: inline-block;
+        padding: 5px;
+        float: left;
+        min-width: 144px;
+        img {
+            max-width: 134px;
+        }
+        &:nth-child(2n) {
+            margin-right: 20px !important;
+        }
+        @media only screen and (max-width: 767px){
+            margin: 0px 20px 20px 0px;
+            max-width: 144px;
+            min-height: 96px;
+            padding-top: 5px;
+            display: block;
+            float: none;
+            background: url(../imgs/background.jpg);
+        }
+    }
+    .item {
+        .col-lg-9.col-md-9 {
+            max-width: 100% !important;
+            padding-left: 0px;
+            padding-right: 0px;
+            overflow: hidden;
+        }
+        @media only screen and (max-width: 767px){
+            padding: 0 12px;
+            flex-wrap: unset;
+        }
+    }
+    .letterheader {
+        text-transform: uppercase;
+        font-size: 70px;
+        display: table-cell;
+        text-align: center;
+        width: 144px;
+        max-height: 96px;
+        margin: 0px 20px 0px 0px;
+        border: 3px solid #414c5c;
+        line-height: 91px;
+        padding: 0px;
+        @media only screen and (max-width: 1200px){
+            display: block !important;
+            width: 144px;
+            height: 96px;
+            margin-left: 0px !important;
+            margin-bottom: 15px !important;
+            margin-right: 15px !important;
+        }
+    }
+    .bota_brand_list_char {
+        ul {
+            li {
+                min-width: 32px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1100px) {
+	.bota_brand_list_char {
+		display: none;
+	}
+}
+@media only screen and (max-width: 350px) {
+	.bota_brand_page {
+		.letter_item {
+			max-width: 140px !important;
+			&:nth-child(2n) {
+				margin-right: 0px !important;
+			}
+		}
+	}
+}
