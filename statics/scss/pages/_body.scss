@@ -4,7 +4,6 @@ body {
     padding: 0;
     font-size: 14px;
     max-width: 100%;
-	word-break: break-all;
 }
 .slide-up {
     -ms-transform: translateY(0);
@@ -980,3 +979,381 @@ body {
 		}
 	}
 }
+.bota_title_pages {
+	h1 {
+		padding: 0px 20px 18px 0px;
+		position: relative;
+		font-size: 36px;
+		text-align: left;
+		margin-bottom: 60px;
+		border-bottom: 1px solid #ebebeb;
+		&:after {
+			content: '';
+			position: absolute;
+			bottom: -2px;
+			left: 0;
+			width: 83px;
+			height: 0;
+			border-style: solid;
+			border-width: 3px 0px 0 0;
+			border-color: #d50d15 transparent transparent transparent;
+			webkit-transition: all .5s ease;
+			-moz-transition: all .5s ease;
+			-o-transition: all .5s ease;
+			-ms-transition: all .5s ease;
+			transition: all .5s ease;
+		}
+	}
+}
+.bota_maps_content {
+	padding-bottom: 44px;
+	border-bottom: 1px solid #ebebeb;
+	margin-bottom: 35px;
+}
+.bota_title_add {
+	font-size: 18px;
+	padding-top: 2px;
+	margin: 0px 0px 20px 0px;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	span {
+		color: #d92b34;
+	}
+}
+.wrapper-select-add {
+	select {
+		&:last-child {
+			margin-right: 0px;
+		}
+		width: 100%;
+		height: 36px;
+		border: 1px solid #e5e5e5;
+		margin-right: 14px;
+		font-size: 15px;
+		background: url(../imgs/select-add.png) no-repeat 95% center;
+		-webkit-appearance: none;
+		padding-left: 10px;
+	}
+}
+#map_canvas {
+	width: 100%;
+	height: 642px;
+}
+.wrapper-list-agency {
+	height: 550px;
+	margin-top: 20px;
+	padding-right: 20px;
+}
+.list-item-agency {
+	padding-left: 0px;
+}
+.name-agency {
+	font-size: 15px;
+	color: #333;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 25px;
+	svg {
+		position: absolute;
+		left: 0px;
+		top: -2px;
+		fill: #d92b34;
+		width: 18px;
+		height: 18px;
+	}
+	&:hover {
+		cursor: pointer;
+		color: red;
+	}
+}
+.img-agency {
+	&:hover {
+		cursor: pointer;
+	}
+}
+.wrapper-info-agency {
+	p {
+		margin-bottom: 5px;
+		line-height: 20px;
+	}
+}
+.item-agency {
+	>img {
+		margin-right: 15px;
+	}
+}
+li.item-agency.clearfix {
+	list-style: none;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 18px;
+	margin-top: 18px;
+}
+li.item-agency {
+	&:first-child {
+		list-style: none;
+		border-top: none;
+		padding-top: 20px;
+		margin-top: 0px;
+	}
+	list-style: none;
+}
+.mCSB_dragger_bar {
+	width: 12px !important;
+	border-radius: 0px !important;
+	background: #d92b34 !important;
+}
+.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical {
+	right: 0;
+	margin: 0px 0px 0px 0px !important;
+	background: #ddd;
+	width: 12px !important;
+}
+.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical {
+	right: 0;
+	margin: 0px 0px 0px 0px !important;
+	background: #ddd;
+	width: 12px !important;
+}
+.info_content {
+	text-align: center;
+	p {
+		line-height: 15px;
+	}
+}
+.map-top {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 22px;
+	h4 {
+		font-size: 18px;
+		color: #c4161c;
+		margin-bottom: 18px;
+	}
+}
+.gm-style {
+	.gm-style-iw {
+		text-align: center;
+	}
+}
+.add-email {
+	background: url(../imgs/email-add.png) no-repeat 164px 6px;
+	padding-left: 184px;
+}
+@media only screen and (max-width: 400px) {
+	.add-email {
+		background: url(../imgs/email-add.png) no-repeat left 6px !important;
+		padding-left: 15px !important;
+	}
+	p.add-phone {
+		padding-left: 15px !important;
+		background: url(../imgs/phone-add.png) no-repeat left 2px !important;
+	}
+	.add-agency {
+		background: url(../imgs/local-add.png) no-repeat left 2px !important;
+		padding-left: 15px !important;
+	}
+	.item-agency {
+		>img {
+			margin-right: 0px !important;
+			width: 100%;
+			margin-bottom: 15px;
+		}
+	}
+}
+@media only screen and (max-width: 800px) {
+	.wrapper-select-add {
+		select {
+			width: 100% !important;
+		}
+	}
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+	.wrapper-select-add {
+		select {
+			width: 100% !important;
+		}
+	}
+	.right-de {
+		width: 350px !important;
+	}
+}
+@media only screen and (max-width: 600px) {
+	#map_canvas {
+		height: 300px !important;
+		margin-top: 30px;
+	}
+}
+.bota_channel_social {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -15px;
+	margin-bottom: 65px;
+  
+	.block {
+	  width: calc(100% / 3 - 30px);
+	  margin: 0px 15px;
+	  padding: 33px 40px;
+	  border: 1px solid #ebebeb;
+	  box-sizing: border-box;
+  
+	  .bota_block_title {
+		font-size: 15px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+	  }
+  
+	  .summary-social {
+		line-height: 22px;
+		height: 40px;
+	  }
+	}
+  
+	.image {
+	  text-align: center;
+	  margin-top: 20px;
+	  margin-bottom: 37px;
+  
+	  img {
+		height: 127px;
+	  }
+	}
+  
+	.image-subcibe {
+	  text-align: center;
+	}
+  
+	.body-social-zalo .image img {
+	  height: 206px;
+	}
+  }
+  
+  @media only screen and (max-width: 800px) {
+	.bota_channel_social .block {
+	  width: calc(100% / 2 - 30px);
+	  margin-bottom: 30px;
+	}
+  }
+  
+  @media only screen and (max-width: 420px) {
+	.bota_channel_social .block {
+	  width: 100%;
+	  margin-bottom: 30px;
+	}
+  }
+  
+  .bota_hotline_contact {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -10px;
+	padding-bottom: 44px;
+	border-bottom: 1px solid #ebebeb;
+	margin-bottom: 35px;
+  
+	.hotline-bt {
+	  width: calc(25% - 20px);
+	  margin: 0px 10px;
+	  position: relative;
+	  padding: 20px 15px 20px 80px;
+	  box-sizing: border-box;
+	  text-transform: uppercase;
+	  border: none;
+	  color: #fff;
+  
+	  &:nth-child(1) {
+		background: #3c579a;
+	  }
+  
+	  &:nth-child(2) {
+		background: #cd2228;
+	  }
+  
+	  &:nth-child(3) {
+		background: #6dbd44;
+	  }
+  
+	  &:nth-child(4) {
+		background: #ef8d2c;
+	  }
+  
+	  div {
+		font-size: 18px;
+	  }
+  
+	  a {
+		margin-top: 4px;
+		font-style: italic;
+		font-size: 14px;
+		text-transform: none;
+		color: #fff;
+	  }
+  
+	  svg {
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		fill: #fff;
+		left: 15px;
+	  }
+	}
+  }
+  
+  @media only screen and (max-width: 420px) {
+	.bota_hotline_contact {
+	  padding-bottom: 20px;
+	}
+  }
+  
+  @media only screen and (max-width: 800px) {
+	.bota_hotline_contact .hotline-bt {
+	  width: calc(50% - 20px);
+	}
+  }
+  
+  @media only screen and (max-width: 420px) {
+	.bota_hotline_contact .hotline-bt {
+	  width: 100%;
+	}
+  }
+  
+  @media screen and (max-width: 768px) {
+	.bota_hotline_contact .hotline-bt {
+	  padding: 15px 15px 15px 60px;
+	  margin-bottom: 10px;
+  
+	  div {
+		font-size: 14px;
+	  }
+  
+	  svg {
+		width: 30px;
+		height: 30px;
+		left: 15px;
+		top: 20px;
+	  }
+	}
+  }
+  .bota_channel_social_title .bota_block_title {
+	margin-bottom: 35px;
+	padding: 0;
+	font-size: 22px;
+	position: relative;
+	color: #333;
+	@media screen and (max-width: 768px){
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+  
+	&:after {
+	  position: absolute;
+	  height: 4px;
+	  width: 68px;
+	  background: #d92b34;
+	  content: '';
+	  left: 0px;
+	  bottom: -15px;
+	}
+  }
+  
