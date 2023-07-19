@@ -7251,6 +7251,29 @@ li.item-agency {
         .bota_cat_item_store ul.nav-tabs li button.active {
           border: 1px solid #000 !important;
           background: none; }
+  .bota_cat_item_store ul li {
+    display: inline-block; }
+    .bota_cat_item_store ul li:nth-child(2) {
+      margin: 0px 5px; }
+    .bota_cat_item_store ul li a {
+      padding: 12px 30px;
+      background: #e4e3e2;
+      border: 1px solid transparent !important;
+      font-size: 16px;
+      text-transform: uppercase;
+      display: inline-block;
+      -webkit-transition: all .3s ease-out;
+      -moz-transition: all .3s ease-out;
+      -o-transition: all .3s ease-out;
+      transition: all .3s ease-out;
+      color: #000;
+      border-radius: unset !important; }
+      .bota_cat_item_store ul li a:hover {
+        background: #d92b34;
+        color: #fff !important; }
+      .bota_cat_item_store ul li a.active {
+        border: 1px solid #000 !important;
+        background: none; }
 
 @media all and (max-width: 600px) {
   .bota_cat_item_store {
