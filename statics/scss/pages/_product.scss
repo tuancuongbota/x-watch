@@ -37,43 +37,11 @@
 .bota_cat_item_store {
 	margin-bottom: 64px;
 	text-align: center;
-	ul {
-		&.nav-tabs {
-			justify-content: center;
-			border: none;
-			li {
-				display: inline-block;
-				&:nth-child(2) {
-					margin: 0px 5px;
-				}
-				button {
-					padding: 12px 30px;
-					background: #e4e3e2;
-					border: 1px solid transparent !important;
-					font-size: 16px;
-					text-transform: uppercase;
-					display: inline-block;
-					-webkit-transition: all .3s ease-out;
-					-moz-transition: all .3s ease-out;
-					-o-transition: all .3s ease-out;
-					transition: all .3s ease-out;
-					color: #000;
-					border-radius: unset !important;
-					&:hover {
-						background: #d92b34;
-						color: #fff !important;
-					}
-					&.active {
-						border: 1px solid #000 !important;
-						background: none;
-					}
-				}
-			}
-		}
-		li{
+	ul{
+		li {
 			display: inline-block;
 			&:nth-child(2) {
-				margin: 0px 5px
+				margin: 0px 5px;
 			}
 			a {
 				padding: 12px 30px;
@@ -90,12 +58,12 @@
 				border-radius: unset !important;
 				&:hover {
 					background: #d92b34;
-					color: #fff !important
-				}	
+					color: #fff !important;
+				}
 				&.active {
 					border: 1px solid #000 !important;
-					background: none
-				}			
+					background: none;
+				}
 			}
 		}
 	}

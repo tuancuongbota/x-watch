@@ -340,6 +340,7 @@
 		width: calc(25% - 30px);
 		box-sizing: border-box;
 		margin: 0px 15px;
+		height: 100%;
 		img {
 			width: 100%;
 			transition: all 0.7s ease 0s !important;
@@ -448,18 +449,20 @@
   
   #news_search_form {
 	position: relative;
-  
-	input {
-	  background-color: #fff;
-	  border: 1px solid #ebebeb;
-	  color: #3a3939;
-	  font-size: 12px;
-	  height: 36px;
-	  line-height: 32px;
-	  margin: 0;
-	  padding: 5px 30px 5px 10px;
-	  width: 100%;
-	  box-sizing: border-box;
+	.search_form {
+		position: relative;
+		 input {
+			background-color: #fff;
+			border: 1px solid #ebebeb;
+			color: #3a3939;
+			font-size: 12px;
+			height: 36px;
+			line-height: 32px;
+			margin: 0;
+			padding: 5px 30px 5px 10px;
+			width: 100%;
+			box-sizing: border-box;
+		}
 	}
   }
   
