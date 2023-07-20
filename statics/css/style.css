@@ -5867,6 +5867,8 @@ samp {
         padding: 10px 0; } }
   .bota_header_search_mb {
     padding-bottom: 15px; }
+    .bota_header_search_mb .container {
+      max-width: 100%; }
     .bota_header_search_mb_ip {
       position: relative; }
       .bota_header_search_mb_ip input {
