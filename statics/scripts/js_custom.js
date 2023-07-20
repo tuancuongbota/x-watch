@@ -153,4 +153,24 @@ $(function () {
     lastScrollTop = st;
 
 });
+
+if ($('.bota_header_menu').length) {
+   var margin_left = 0;
+   $('.prev-menu-mb').on('click', function(e) {
+       e.preventDefault();
+       animateMargin( 190 );
+   });
+   $('.next-menu-mb').on('click', function(e) {
+       e.preventDefault();
+       animateMargin( -190 );
+   });
+   const animateMargin = ( amount ) => {
+       margin_left = Math.min(0, Math.max( getMaxMargin(), margin_left + amount ));
+       $('.navbar-nav').animate({
+           'margin-left': margin_left
+       }, 300);
+   };
+   const getMaxMargin = () =>
+       $('.navbar-nav').parent().width() - $('.navbar-nav')[0].scrollWidth;
+}
 });
